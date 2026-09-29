@@ -21,7 +21,7 @@
 | :---: | :---: |
 | ![Dashboard Preview](<img width="1893" height="835" alt="journal activo 5" src="https://github.com/user-attachments/assets/90b98b7a-387c-4a98-951c-bddfcc4cb07a" />
 <div align="center"><img width="1902" height="844" alt="journal CTIVO 3" src="https://github.com/user-attachments/assets/126b746a-d07c-4433-9384-a32564458f06" />
-) | ![Analytics Preview](./public/preview-stats.png) |<img width="1880" height="853" alt="journal activo 2" src="https://github.com/user-attachments/assets/ae71e865-0f99-4eeb-a716-501950a1b29f" />
+<img width="1880" height="853" alt="journal activo 2" src="https://github.com/user-attachments/assets/ae71e865-0f99-4eeb-a716-501950a1b29f" />
 
 
 ---
