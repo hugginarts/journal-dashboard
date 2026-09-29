@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+# 📊 SML Trading Journal Dashboard
+### *Sistema Profesional de Registro y Análisis Intraday*
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-16.2.4-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.8+-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-LTS-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Status](https://img.shields.io/badge/Status-Active%20Development-success?style=for-the-badge)]()
 
+*Una plataforma web minimalista, de alta velocidad y orientada a datos, diseñada específicamente para el seguimiento estricto, análisis de métricas y gestión de rendimiento en trading.*
+
+</div>
+
+---
+
+## 🌟 Vista Previa
+
+*(Aquí puedes arrastrar y soltar las capturas de pantalla de tu dashboard directamente en tu editor o en la caja de comentarios de GitHub para que se generen los enlaces automáticamente)*
+
+| Vista General del Dashboard | Analíticas y Métricas |
+| :---: | :---: |
+| ![Dashboard Preview](./public/preview-main.png) | ![Analytics Preview](./public/preview-stats.png) |
+
+---
+
+## ✨ Características Principales
+
+- **⚡ Motor Next.js con Turbopack:** Rendimiento ultrarrápido optimizado para cargas instantáneas y navegación fluida.
+- **📈 Métricas de Rendimiento:** Visualización clara de rendimiento operativo, estadísticas de sesiones y control de riesgos.
+- **🔌 Endpoints API Modulares:** Rutas backend integradas para la importación automatizada de datos (CSV) y recepción de webhooks en tiempo real.
+- **🎨 Interfaz Minimalista (Dark Mode Ready):** Diseñado con Tailwind CSS para evitar fatiga visual durante sesiones prolongadas frente al monitor.
+
+---
+
+## 🛠️ Stack Tecnológico
+
+* **Frontend & Framework:** [Next.js](https://nextjs.org/) (App Router)
+* **Estilos:** [Tailwind CSS](https://tailwindcss.com/)
+* **Entorno de ejecución:** [Node.js](https://nodejs.org/)
+* **Control de versiones:** Git & GitHub
+
+---
+
+## 🚀 Guía de Instalación Local
+
+Sigue estos pasos para clonar y poner a correr el proyecto en tu entorno de desarrollo local:
+
+### 1. Clonar el repositorio
 ```bash
+git clone [https://github.com/hugginarts/journal-dashboard.git](https://github.com/hugginarts/journal-dashboard.git)
+cd journal-dashboard
+
+2. Instalar dependencias
+Bash
+npm install
+3. Configurar variables de entorno
+Crea un archivo .env.local en la raíz del proyecto basándote en tus configuraciones locales (si aplica).
+
+4. Ejecutar el servidor de desarrollo
+Bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Abre http://localhost:3000 en tu navegador para ver la aplicación funcionando.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📂 Estructura del Proyecto
+Plaintext
+journal-dashboard/
+├── app/                  # Rutas principales y App Router de Next.js
+│   ├── api/              # Endpoints backend (importación CSV, webhooks, trades)
+│   ├── globals.css       # Estilos globales y configuraciones de Tailwind
+│   ├── layout.js         # Layout principal de la aplicación
+│   └── page.js           # Vista raíz del dashboard
+├── public/               # Archivos estáticos e imágenes
+├── package.json          # Dependencias y scripts del proyecto
+└── README.md             # Documentación oficial
+👤 Autor
+Desarrollado con dedicación por Hugginarts
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Code. Trade. Repeat.
