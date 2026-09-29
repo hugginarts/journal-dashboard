@@ -17,7 +17,7 @@
 ## 🌟 Vista Previa
 
 
-| Vista General del Dashboard | Analíticas y Métricas |
+| Vista General del Dashboard |
 | :---: | :---: |
 | ![Dashboard Preview]
 <img width="1880" height="853" alt="journal activo 2" src="https://github.com/user-attachments/assets/05de4ee5-72ae-4082-80e7-14463200a9fd" />
