@@ -18,8 +18,7 @@
 
 
 | Vista General del Dashboard |
-| :---: | :---: |
-| ![Dashboard Preview]
+
 <img width="1880" height="853" alt="journal activo 2" src="https://github.com/user-attachments/assets/05de4ee5-72ae-4082-80e7-14463200a9fd" />
 <img width="1902" height="844" alt="journal CTIVO 3" src="https://github.com/user-attachments/assets/d48d43c9-dcda-406f-8cb0-907a5a22d313" />
 <img width="1893" height="835" alt="journal activo 5" src="https://github.com/user-attachments/assets/9ff8f411-dd2c-4cb9-90d9-03661340d744" />
